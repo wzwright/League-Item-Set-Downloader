@@ -47,6 +47,8 @@
                 $.each($(val).children().eq(1).find(".main-items a"),function(index,value){
                     var item = new Object();
                     item.id= itemLookup[/-\d+/.exec($(value).attr('href'))[0].replace("-","")];
+                    if($(value).find(".item span").length)
+                        item.count=$(value).find(".item span").html().replace("x","");
                     items.push(item);
                 });
                 block.items=items;
