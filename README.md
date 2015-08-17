@@ -1,5 +1,7 @@
 # League-Item-Set-Downloader
-Downloads item sets, made for Riot API challenge 2.0 (https://developer.riotgames.com/discussion/announcements/show/2lxEyIcE)
+Downloads item sets from mobafire, made for Riot API challenge 2.0
+Hosted at www.wzwright.com/ItemSetDownloader
+(https://developer.riotgames.com/discussion/announcements/show/2lxEyIcE)
 
 Made with PHP, JS, and jQuery with AJAX
 
