@@ -1,6 +1,7 @@
 # League-Item-Set-Downloader
-Downloads item sets, made for Riot API challenge 2.0 https://developer.riotgames.com/discussion/announcements/show/2lxEyIcE
-PHP, JS, and jQuery with AJAX
+Downloads item sets, made for Riot API challenge 2.0 (https://developer.riotgames.com/discussion/announcements/show/2lxEyIcE)
+
+Made with PHP, JS, and jQuery with AJAX
 
 curlPage.php gets the mobafire page and sends it to the client
 download.php converts the JSON text to a file that is downloaded
